@@ -207,6 +207,7 @@ class REPLExecutor:
             'callable': callable,
             'type': type,
             'hasattr': hasattr,
+            'open': open,
 
             # Constants
             'True': True,
