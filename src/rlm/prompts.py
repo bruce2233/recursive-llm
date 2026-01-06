@@ -23,6 +23,8 @@ Available in environment:
 - recursive_llm(sub_query, sub_context) -> str (recursively process sub-context)
 - re: already imported regex module (use re.findall, re.search, etc.)
 
+Tip: You can use standard Python file access (e.g., `open('src/rlm/parser.py').read()`) to inspect the project code if you need to understand the environment or verifier logic.
+
 Write Python code to answer the query. The last expression or print() output will be shown to you.
 
 Examples:
